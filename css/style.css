@@ -1,7 +1,64 @@
+.font-color{
+	color: #fc645f;
+	}
+.icon-bar{
+	border-bottom: 1px solid #000;
+	}
+
 .header-block{
+	color: #fff;
 	background-image : url('../images/head-bg.png');
 	background-size: cover;
-}
+	}
+	.navbar-right a{
+		color: #fc645f;
+		text-transform: uppercase;
+		border-bottom: 3px solid transparent;
+		padding: 0 !important;
+		margin: 40px 20px !important;
+		display: inline-block !important;
+		}
+		.navbar-right a:hover{
+			background: transparent !important;
+			border-bottom: 3px solid #fc645f;
+			}
+		.navbar-header{
+			padding-top: 10px;
+			}
+			.navbar-header .sep{
+				display: inline-block;
+				width: 15px;
+				}
+			.navbar-header a{
+				color: #fff;
+				cursor: pointer;
+				padding-top: 25px !important;
+				}
+				.navbar-header a:hover{	
+					color: #fc645f;
+					}
+			.header-content{
+				padding-top: 100px;
+				}
+				.header-content h1{
+					font-size: 40px;
+					text-transform: uppercase;
+					font-weight: 600;
+					}
+				.header-content p{
+					font-size: 20px;
+					}
+				.header-content a{
+					border: 2px solid #fc645f;
+					background: none;
+					color: #fc645f;
+					margin-bottom: 200px;
+					}
+					.header-content a:hover{
+						border: 2px solid #fc645f;
+						background: #fc645f;
+						color: #fff;
+						}
 
 /***** Шистикутник *****/
 .hexagon {
@@ -14,6 +71,7 @@
 	-ms-transform: rotate(120deg);
 	-o-transform: rotate(120deg);
 	transform: rotate(120deg);
+	display: inline-block;
 		}
 		.hexagon > div{
 			overflow: hidden;
