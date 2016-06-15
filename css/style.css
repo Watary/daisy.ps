@@ -1,3 +1,26 @@
+@font-face {
+	font-family: SourceSansRegular;
+	src:url(../fonts/SourceSansPro/SourceSansPro-Regular.otf); 
+	}
+@font-face {
+	font-family: SourceSansLightIt;
+	src:url(../fonts/SourceSansPro/SourceSansPro-LightIt.otf); 
+	}
+@font-face {
+	font-family: SourceSansLight;
+	src:url(../fonts/SourceSansPro/SourceSansPro-Light.otf); 
+	}
+@font-face {
+	font-family: SourceSansBold;
+	src:url(../fonts/SourceSansPro/SourceSansPro-Bold.otf); 
+	}
+
+*{
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	font-family: SourceSansRegular;
+	}
 .font-color{
 	color: #fc645f;
 	}
@@ -30,6 +53,7 @@
 				width: 15px;
 				}
 			.navbar-header a{
+				font-family: SourceSansLight;
 				color: #fff;
 				cursor: pointer;
 				padding-top: 25px !important;
@@ -37,28 +61,47 @@
 				.navbar-header a:hover{	
 					color: #fc645f;
 					}
+				.nav a{
+					font-family: SourceSansLight;
+					}	
 			.header-content{
 				padding-top: 100px;
+				position: relative;
 				}
 				.header-content h1{
 					font-size: 40px;
 					text-transform: uppercase;
-					font-weight: 600;
+					font-family: SourceSansBold;
 					}
+					.header-content h1 span{
+						font-family: SourceSansBold;
+						}
 				.header-content p{
 					font-size: 20px;
+					font-family: SourceSansLight;
 					}
 				.header-content a{
 					border: 2px solid #fc645f;
 					background: none;
 					color: #fc645f;
 					margin-bottom: 200px;
+					font-family: SourceSansLight;
 					}
 					.header-content a:hover{
 						border: 2px solid #fc645f;
 						background: #fc645f;
 						color: #fff;
 						}
+				.mouse{
+					width: 50px;
+					height: 220px;
+					position: absolute;
+					top: 280px;
+					left: calc(50% + 150px);
+					border-right: 1px dashed #7d7d7d;
+					border-top: 1px dashed #7d7d7d;
+					border-radius: 0 20px 0 0;
+					}
 
 /***** Шистикутник *****/
 .hexagon {
