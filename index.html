@@ -8,6 +8,7 @@
 
 		<script type="text/javascript" src="includes/jquery/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="includes/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="includes/PageScroll2id/PageScroll2id.min.js"></script>
 
 		<link href="includes/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="includes/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -40,7 +41,7 @@
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#">about</a></li>
-							<li><a  class="active" href="#">portfolio</a></li>
+							<li><a href="#">portfolio</a></li>
 							<li><a href="#">services</a></li>
 							<li><a href="#">contact</a></li>
 						</ul>
@@ -54,16 +55,21 @@
 						<p>Your clients on the internet. Learn how to receive them.</p>
 						<br>
 						<br>
-						<a class="btn btn-lg btn-default">I want clients</a>
+						<a class="btn btn-lg btn-default" href="#">I want clients</a>
 						<div class="mouse hidden-xs">
 							<img src="images/mouse.png" alt="mouse" style="opacity: .2;margin-top: -50%;margin-left: -200%;">
+						</div>
+						<div class="down-move">
+							<a href="#section-2">
+								<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-    <div class="section">
+    <div class="section" id="section-2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -241,7 +247,7 @@
       </div>
     </div>
     <div class="section">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <h1>MAP
@@ -263,3 +269,9 @@
   </body>
 
 </html>
+
+<script>
+	$("a").mPageScroll2id({
+	    offset:-1
+	});
+</script>
