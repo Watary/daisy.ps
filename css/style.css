@@ -38,6 +38,19 @@
 		background: #fc645f;
 		color: #fff;
 		}
+.batton-2{
+	border: 2px solid #fc645f;
+	background: #fc645f;
+	color: #fff;
+	font-family: SourceSansLight;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.batton-2:hover{
+		border: 2px solid #fc645f;
+		background: none;
+		color: #fc645f;
+		}
 
 .header-block{
 	color: #fff;
@@ -125,7 +138,7 @@
 					text-align: center;
 					}
 					.down-move:hover, .down-move:hover a{
-						background: #fff;
+						background: none;
 						color: #fc645f;
 						}
 					.down-move a{
@@ -164,7 +177,7 @@
 				margin-bottom: 70px;
 				}
 			#section-2 .thumbnail .caption h3{
-				padding-top: 200px;
+				padding-top: 160px;
 				text-transform: uppercase;
 				}
 			#section-2 .thumbnail .caption p{
@@ -177,10 +190,10 @@
 				border-bottom: 1px solid #868686;
 				}
 			.thumbnail-border{
-				width: 190px !important; 
-				height: 220px !important;
-				margin-left: calc(50% - 95px) !important;
-				margin-bottom: -220px !important;
+				width: 170px !important; 
+				height: 200px !important;
+				margin-left: calc(50% - 85px) !important;
+				cursor: pointer;
 				}
 				.thumbnail-border > div > div{
 					background-color: #fe8682;
@@ -196,9 +209,9 @@
 							background-color: #fff;
 							}
 				.thumbnail-hexagon{
-					width: 170px !important; 
-					height: 220px !important;
-					margin-left: calc(50% - 85px) !important;
+					width: 150px !important; 
+					height: 200px !important;
+					margin-left: calc(50% - 75px) !important;
 					}
 					.thumbnail-hexagon > div > div{
 						background-color: #fc645f;
@@ -279,6 +292,52 @@
 				.section-3-frame h1 span{
 					font-family: SourceSansBold;
 					}
+	.style-what h3{
+		padding: 0 12px 0 12px;
+		text-transform: uppercase;
+		font-size: 28px;
+		font-family: SourceSansRegular;
+		margin-top: 100px;
+		color: #868686;
+		}
+	.style-what p{
+		font-family: SourceSansLight;
+		font-size: 15px;
+		color: #9e9898;
+		}
+	.style-what .col-md-5 a{
+		margin-top: 30px;
+		}
+	.style-what img{
+		margin-top: 60px;
+		width: 100%;
+		}
+	.style-what .down-move-neg{
+		margin-top: 30px;
+		}
+	.style-what h1{
+		color: #fc635e;
+		font-size: 28px;
+		text-transform: uppercase;
+		margin-bottom: -20px;
+		}
+		.style-what h1 span{
+			border-bottom: 1px solid #adadad;
+			}
+	.style-1{
+		background: #f2f2f2;
+		}
+		.style-1 h3{
+			border-left: 10px solid #fc635e;
+			}
+	.style-2{
+		text-align: right;
+		}
+		.style-2 h3{
+			border-right: 10px solid #fc635e;
+			}
+
+		
 
 /***** Шистикутник *****/
 .hexagon {
