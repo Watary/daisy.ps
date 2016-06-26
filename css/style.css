@@ -109,7 +109,8 @@
 					width: 30px;
 					border-radius: 50%;
 					margin: 0 50% 30px 50%;
-					font-size: 22px;
+					font-size: 20px;
+					border: 2px solid #fc645f;
 					}
 					.down-move:hover, .down-move:hover a{
 						background: #fff;
@@ -126,6 +127,126 @@
 						.down-move a:hover{
 							border: none;
 							}
+	#section-2, #section-2 .caption{
+		color: #868686;
+		padding-top: 50px;
+		}
+		#section-2 .header{
+			font-size: 28px;
+			text-transform: uppercase;
+			font-family: SourceSansBold;
+			border-bottom: 1px solid #868686;
+
+			}
+			#section-2 .header span{
+				font-family: SourceSansBold;
+				}
+		#section-2 .thumbnail{
+			text-align: center;
+			border: none;			
+			font-family: SourceSansRegular;
+			}
+			#section-2 .header-description{
+				font-family: SourceSansLight;
+				font-size: 20px;
+				margin-bottom: 70px;
+				}
+			#section-2 .thumbnail .caption h3{
+				padding-top: 200px;
+				text-transform: uppercase;
+				}
+			#section-2 .thumbnail .caption p{
+				font-family: SourceSansLight;
+				font-size: 15px;
+				}
+			#section-2 .thumbnail .caption .sub-h3{
+				width: 60px;
+				margin: -5px auto 15px auto;
+				border-bottom: 1px solid #868686;
+				}
+			.thumbnail-border{
+				width: 190px !important; 
+				height: 220px !important;
+				margin-left: calc(50% - 95px) !important;
+				margin-bottom: -220px !important;
+				}
+				.thumbnail-border > div > div{
+					background-color: #fe8682;
+					color: #0c252d;
+					text-align: center;
+					font-size: 2em; 
+					line-height: 68px;
+					}
+					.thumbnail-border > div > div:hover{
+						background-color: #fc635e;
+						}
+						.thumbnail-border > div > div:hover .thumbnail-hexagon > div > div{
+							background-color: #fff;
+							}
+				.thumbnail-hexagon{
+					width: 170px !important; 
+					height: 220px !important;
+					margin-left: calc(50% - 85px) !important;
+					}
+					.thumbnail-hexagon > div > div{
+						background-color: #fc645f;
+						color: #0c252d;
+						text-align: center; 
+						font-size: 2em; 
+						line-height: 68px;
+						background-position: center !important;
+						background-repeat: no-repeat !important;
+						background-size: 70% !important;
+						}
+		.hexagon-s-2-1 > div > div > div > div > div{
+			background-image: url('../images/section_2_1.png') !important;
+			}
+			.hexagon-s-2-1:hover > div > div > div > div > div{
+				background-image: url('../images/section_2_1_active.png') !important;
+				}
+		.hexagon-s-2-2 > div > div > div > div > div{
+			background-image: url('../images/section_2_2.png') !important;
+			}
+			.hexagon-s-2-2:hover > div > div > div > div > div{
+				background-image: url('../images/section_2_2_active.png') !important;
+				}
+		.hexagon-s-2-3 > div > div > div > div > div{
+			background-image: url('../images/section_2_3.png') !important;
+			}
+			.hexagon-s-2-3:hover > div > div > div > div > div{
+				background-image: url('../images/section_2_3_active.png') !important;
+				}
+		.hexagon-s-2-4 > div > div > div > div > div{
+			background-image: url('../images/section_2_4.png') !important;
+			}
+			.hexagon-s-2-4:hover > div > div > div > div > div{
+				background-image: url('../images/section_2_4_active.png') !important;
+				}
+	.down-move-neg{
+		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		margin: 0 50% 30px 50%;
+		font-size: 20px;
+		border: 2px solid #fc645f;
+		color: #fc645f;
+		text-align: center;
+		}
+		.down-move-neg:hover, .down-move-neg:hover a{
+			background: #fc645f;
+			color: #fff;
+			}
+			.down-move-neg a{
+				color: #fc645f;
+				border: none;
+				margin: 0;
+				padding: 0;
+				background: none !important;
+				display: block;
+				}
+				.down-move-neg a:hover{
+					border: none;
+					}
 
 /***** Шистикутник *****/
 .hexagon {
@@ -139,28 +260,28 @@
 	-o-transform: rotate(120deg);
 	transform: rotate(120deg);
 	display: inline-block;
+	}
+	.hexagon > div{
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		-webkit-transform: rotate(-60deg);
+		-moz-transform: rotate(-60deg);
+		-ms-transform: rotate(-60deg);
+		-o-transform: rotate(-60deg);
+		transform: rotate(-60deg);
 		}
-		.hexagon > div{
-			overflow: hidden;
+		.hexagon > div > div{
 			width: 100%;
 			height: 100%;
+			background-repeat: no-repeat;
+			background-position: 50%;
+			visibility: visible;
+			background-size: cover;
+			background-repeat: no-repeat;
 			-webkit-transform: rotate(-60deg);
 			-moz-transform: rotate(-60deg);
 			-ms-transform: rotate(-60deg);
 			-o-transform: rotate(-60deg);
 			transform: rotate(-60deg);
-				}
-				.hexagon > div > div{
-					width: 100%;
-					height: 100%;
-					background-repeat: no-repeat;
-					background-position: 50%;
-					visibility: visible;
-					background-size: cover;
-					background-repeat: no-repeat;
-					-webkit-transform: rotate(-60deg);
-					-moz-transform: rotate(-60deg);
-					-ms-transform: rotate(-60deg);
-					-o-transform: rotate(-60deg);
-					transform: rotate(-60deg);
-					}
+			}
