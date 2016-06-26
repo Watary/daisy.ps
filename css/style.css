@@ -27,6 +27,17 @@
 .icon-bar{
 	border-bottom: 1px solid #000;
 	}
+.batton{
+	border: 2px solid #fc645f;
+	background: none;
+	color: #fc645f;
+	font-family: SourceSansLight;
+	}
+	.batton:hover{
+		border: 2px solid #fc645f;
+		background: #fc645f;
+		color: #fff;
+		}
 
 .header-block{
 	color: #fff;
@@ -111,6 +122,7 @@
 					margin: 0 50% 30px 50%;
 					font-size: 20px;
 					border: 2px solid #fc645f;
+					text-align: center;
 					}
 					.down-move:hover, .down-move:hover a{
 						background: #fff;
@@ -246,6 +258,26 @@
 				}
 				.down-move-neg a:hover{
 					border: none;
+					}
+	.section-3{
+		background-image: url('../images/bg-section_3.png');
+		background-size: cover;
+		}
+		.section-3-frame{
+			margin: 90px 0 50px 0;
+			padding: 110px 0 100px 0;
+			text-align: center;
+			border: 10px solid  rgba(255, 255, 255, 0.1);
+			}
+			.section-3-frame h1{
+				font-size: 50px;
+				text-transform: uppercase;
+				font-family: SourceSansBold;
+				color: #fff;
+				margin-bottom: 30px;
+				}
+				.section-3-frame h1 span{
+					font-family: SourceSansBold;
 					}
 
 /***** Шистикутник *****/
