@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="includes/jquery/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="includes/bootstrap-3.3.6/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="includes/PageScroll2id/PageScroll2id.min.js"></script>
+		<script type="text/javascript" src="includes/mixitup/jquery.mixitup.min.js"></script>
 
 		<link href="includes/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href="includes/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -260,17 +261,108 @@
 			</div>
 		</div>
 
-    <div class="section" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">portfolio</h1>
-            <a class="btn btn-primary">I want landing page</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
+		<div class="section portfolio" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-center header"><span>portfolio</span></h1>
+						<div class="filter-cat">
+							<div class="row">
+								<div class="filter col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-1" data-filter="all"><span>All</span></div>
+								<div class="filter col-md-2 col-sm-2" data-filter=".entertainment"><span>entertainment</span></div>
+								<div class="filter col-md-2 col-sm-2" data-filter=".sport"><span>sport</span></div>
+								<div class="filter col-md-2 col-sm-2" data-filter=".business"><span>business</span></div>
+								<div class="filter col-md-2 col-sm-2" data-filter=".building"><span>building</span></div>
+							</div>
+						</div>
+						<div class="row">
+							<div id="Container">
+								<div class="mix col-md-6 col-sm-6 col-xs-12 entertainment business">
+									<div class="portfolio-item" style="background: url('images/portfolio_1.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>mountain bikes</span>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="mix col-md-3 col-sm-6 col-xs-12 sport">
+									<div class="portfolio-item" style="background: url('images/portfolio_2.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>info</span>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="mix col-md-3 col-sm-6 col-xs-12 entertainment">
+									<div class="portfolio-item" style="background: url('images/portfolio_3.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>info</span>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="mix col-md-3 col-sm-6 col-xs-12 entertainment">
+									<div class="portfolio-item" style="background: url('images/portfolio_4.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>info</span>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="mix col-md-3 col-sm-6 col-xs-12 sport">
+									<div class="portfolio-item" style="background: url('images/portfolio_5.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>info</span>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="mix col-md-6 col-sm-6 col-xs-12 sport business">
+									<div class="portfolio-item" style="background: url('images/portfolio_6.png')">
+										<div class="portfolio-hover">
+											<a href="#">
+												<i class="fa fa-plus" aria-hidden="true"></i>
+												<span>info</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<a class="btn btn-primary batton-2">I want landing page</a>
+							<div class="mouse-blue hidden-xs">
+								<img src="images/mouse-blue.png" alt="mouse">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="down-move-neg">
+						<a href="#team">
+							<i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <div class="section team" id="team">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -282,7 +374,7 @@
             <img src="https://ununsplash.imgix.net/photo-1423753623104-718aaace6772?w=1024&amp;q=50&amp;fm=jpg&amp;s=1ffa61419561b5c796bca3158e7c704c"
             class="img-responsive">
             <h3 class="text-center">Tomothy Bowman</h3>
-            <h5 contenteditable="true" class="text-center">Marketing</h5>
+            <h5 class="text-center">Marketing</h5>
           </div>
           <div class="col-md-4">
             <img src="https://unsplash.imgix.net/photo-1422222948315-28aadb7a2cb8?w=1024&amp;q=50&amp;fm=jpg&amp;s=cfeadbd7a991e58b553bee29a7eeca55"
@@ -323,7 +415,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 contenteditable="true" class="text-center">Daisy</h1>
+            <h1 class="text-center">Daisy</h1>
           </div>
         </div>
       </div>
@@ -335,5 +427,13 @@
 <script>
 	$("a").mPageScroll2id({
 	    offset:-1
+	});
+
+	$(function(){
+		$('#Container').mixItUp({
+			animation: {
+				effects: 'fade'
+			}
+		});
 	});
 </script>

@@ -251,7 +251,7 @@
 		height: 30px;
 		width: 30px;
 		border-radius: 50%;
-		margin: 0 50% 30px 50%;
+		margin: 0 calc(50% - 15px) 30px calc(50% - 15px);
 		font-size: 20px;
 		border: 2px solid #fc645f;
 		color: #fc645f;
@@ -336,8 +336,97 @@
 		.style-2 h3{
 			border-right: 10px solid #fc635e;
 			}
-
-		
+	.portfolio .header{
+		font-size: 28px;
+		text-transform: uppercase;
+		font-family: SourceSansRegular;
+		color: #868686;
+		margin-top: 80px;
+		}
+		.portfolio .header span{
+			border-bottom: 1px solid #868686;
+			}
+	.portfolio .filter-cat{
+		font-family: SourceSansLight;
+		font-size: 20px;
+		text-transform: uppercase;
+		border-top: 1px solid #868686;
+		border-bottom: 1px solid #868686;
+		padding: 15px;
+		margin: 40px 0 45px 0;
+		color: #fc635e;
+		}
+		.portfolio .filter-cat div{
+			font-family: SourceSansLight;
+			text-align: center;
+			}
+			.portfolio .filter-cat div span{
+				cursor: pointer;
+				}
+		#Container .mix{
+			display: none;
+			}
+	.portfolio{
+		text-align: center;
+		}
+		.portfolio .row{
+			position: relative;
+			}
+		.portfolio-item{
+			background-size: cover !important;
+			background-repeat: no-repeat !important;
+			background-position: center;
+			height: 200px;
+			margin-bottom: 30px;
+			}
+			.portfolio-hover{
+				position: relative;
+				opacity: 0;
+				padding: 10px;
+				height: 100%;
+				text-align: left;
+				}
+				.portfolio-hover a{
+					text-decoration: none;
+					}
+					.portfolio-hover span{
+						font-family: SourceSansBold;
+						font-size: 28px;
+						text-transform: uppercase;
+						color: #fff;
+						text-align: left;
+						}
+					.portfolio-hover i{
+						position: absolute;
+						left: calc(50% - 15px);
+						font-size: 30px;
+						top: calc(50% - 15px);
+						color: #fff;
+						}
+				.portfolio-item:hover .portfolio-hover{
+					background: rgba(252, 99, 94, .75);
+					opacity: 100;
+					}
+		.portfolio .batton-2{
+			margin-top: 30px;
+			}
+		.portfolio .down-move-neg{
+			margin-top: 30px;
+			}
+		.portfolio .mouse-blue{
+			position: absolute;
+			left: calc(50% + 140px);
+			bottom: 17px;
+			height: 79px;
+			border-right: 1px dashed #065164;
+			border-bottom: 1px dashed #065164;
+			border-radius: 0 0 20px 0;
+			}
+			.portfolio .mouse-blue img{
+				position: relative;
+				left: -49px;
+				top: calc(100% - 15px);
+				}
 
 /***** Шистикутник *****/
 .hexagon {
