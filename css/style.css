@@ -434,6 +434,50 @@
 				left: -49px;
 				top: calc(100% - 15px);
 				}
+	.team{
+		background-image: url('../images/bg-section_team.png');
+		text-align: center;
+		background-size: cover;
+		}
+		.team h1 .span{
+			font-size: 28px;
+			text-transform: uppercase;
+			border-bottom: 1px solid #868686;
+			color: #565656;
+			padding-bottom: 5px;
+			}
+		.team-item{
+			margin-top: 75px;
+			}
+		.team .name{
+			font-size: 28px;
+			text-transform: capitalize;
+			}
+		.team .position{
+			font-size: 20px;
+			font-family: SourceSansLight;
+			}
+		.team .social a{
+			border-radius: 50%;
+			margin: 0 10px 0 10px;
+			}
+			.team .social a i{
+				color: #fff;
+				background: #565656;
+				font-size: 20px;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				border-radius: 50%;
+				}
+				.team .social a i:hover{
+					color: #fff;
+					background: #fc645f;
+					}
+		
+		.team .down-move-neg{
+			margin-top: 70px;
+			}
 
 /***** Шистикутник *****/
 .hexagon {
