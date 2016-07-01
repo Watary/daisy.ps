@@ -479,6 +479,9 @@
 			margin-top: 70px;
 			}
 
+	.map{
+		height: 350px;
+		}
 	.footer{
 		background-image: url('../images/footer-bg.png');
 		background-size: cover;
