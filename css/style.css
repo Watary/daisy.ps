@@ -479,6 +479,18 @@
 			margin-top: 70px;
 			}
 
+	.footer{
+		background-image: url('../images/footer-bg.png');
+		background-size: cover;
+		}
+		.footer h1{
+			font-family: SourceSansBold;
+			font-size: 30px;
+			color: #fff;
+			display: inline-block;
+			margin: 80px 0 80px 20px;
+			}
+
 /***** Шистикутник *****/
 .hexagon {
 	width: 150px;
